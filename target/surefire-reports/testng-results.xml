@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23685" started-at="2018-12-05T08:20:32Z" finished-at="2018-12-05T08:20:56Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="23685" started-at="2018-12-05T08:20:32Z" finished-at="2018-12-05T08:20:56Z">
+      <class name="eleks.eset.sample.SmokeTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:eleks.eset.sample.SmokeTests@1624775]" name="setUp" is-config="true" duration-ms="12430" started-at="2018-12-05T10:20:32Z" finished-at="2018-12-05T10:20:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logInTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:eleks.eset.sample.SmokeTests@1624775]" name="logInTest" duration-ms="10549" started-at="2018-12-05T10:20:45Z" data-provider="TestData1" finished-at="2018-12-05T10:20:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Administrator]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passw0rd1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MyName]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:eleks.eset.sample.SmokeTests@1624775]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-12-05T10:20:55Z" finished-at="2018-12-05T10:20:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logInTest status=SUCCESS method=SmokeTests.logInTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:eleks.eset.sample.SmokeTests@1624775] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close()[pri:0, instance:eleks.eset.sample.SmokeTests@1624775]" name="close" is-config="true" duration-ms="642" started-at="2018-12-05T10:20:55Z" finished-at="2018-12-05T10:20:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- eleks.eset.sample.SmokeTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
